@@ -7,7 +7,8 @@ Aplicação responsiva destinado para profissional design de sobrancelhas e cíl
 profissional, mostrar os serviços disponíveis e realizar um link para a redes sociais utilizadas pelo emprendedor.  
 
 ## Layout Mobile
-https://github.com/liv-pereira/Assets/blob/main/DesingSobrancelha/20220620_093533.mp4
+
+https://user-images.githubusercontent.com/88174449/174608875-0642e6df-bf4e-49b4-9580-43aa0ac1b5ce.mp4
 
 ## Layout web
 ![Principal](https://github.com/liv-pereira/Assets/blob/main/DesingSobrancelha/main.png)
