@@ -19,11 +19,14 @@ https://user-images.githubusercontent.com/88174449/174611712-79d7d272-dc67-48dd-
 
 ![Rodapé](https://github.com/liv-pereira/Assets/blob/main/DesingSobrancelha/footer.png)
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - HTML / CSS
 
-# Autor
+##Validação W3C
+[HTML](https://validator.w3.org/).
+
+## Autor
 
 Lívia Pereira Pondé
 
