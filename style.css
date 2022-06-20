@@ -1,0 +1,315 @@
+
+/* Importação da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+
+/* CSS Reset */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+/* Ir para o topo */
+#setatopo{
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  color: rgba(0, 0, 0, 0.5);
+
+}
+
+/* Layout */
+.container{
+  margin: 0 auto;
+  
+
+
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+.flex1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+
+}
+.flex2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+#titulo{
+  display: flex; 
+  justify-content: center; 
+  text-align: center;
+  margin-bottom: 20px;
+  color: #428c85;
+  font-size: 1.8em;
+}
+
+.botao{
+text-decoration: none;
+color:#fff;
+font-size: 1.5em;
+font-weight: 700;
+background-color: #daa520;
+padding: 10px 40px;
+border: 2px solid #cc00cc;
+border-radius: 25px;
+
+  
+}
+
+/* Cartões */
+.card{
+  margin-top: 20px;
+  width: 338px;
+  height: 550px;
+  background: url(img/marmore.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #000;
+  border-radius: 25px;
+  text-align: center;
+  
+}
+.card img {
+  border-radius: 25px 25px 0px 0px ;
+}
+.card h3 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #428c85;
+
+}
+.listaServico ul {
+  list-style: none;
+}
+.listaServico ul li {
+  padding: 2px 0px 8px 0px;
+}
+
+
+
+/* ------------Smartphone Retrato --------------*/
+
+/* cabeçalho */
+header{
+   height: 100px; 
+  
+}
+#logo img{
+  width: 100px;
+  height: 100px;
+
+}
+#checkbox{
+  display: none;
+}
+label{
+  font-size: 3em;
+  position: fixed;
+  top:5px;
+  right:15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+nav ul{
+  list-style: none;
+  height: 100vh;
+  background-color:  #428c85;
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  right: -100%;
+  transition: all 0.4s;
+}
+#checkbox:checked ~ ul {
+  right: 0;
+
+}
+nav ul li{
+  padding: 20px;
+  border-bottom: 1px solid #7ebfb9;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+
+}
+
+/* Banner */
+main{
+  height: 75vh;
+  width: 100%;
+  background: url(img/banner_modelo2.1.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px; 
+  color: #cc00cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+main h2 {
+  font-size: 2.5em;
+  margin: 20px 0 45px 0;
+  text-shadow: #000 0.05em 0.05em 0.05em;
+  
+}
+
+/* Sobre mim */
+#sobre{
+  padding: 30px 15px;
+}
+.minhaFoto {
+  width: 150px;
+  height: 163px;
+  border-radius: 50%; 
+ float: left;
+ shape-outside: circle(50%);
+ margin-right: 1.5em;
+}
+#textoSobre h2 {
+  margin-bottom: 10px;
+  color: #428c85;
+}
+/* Serviços */
+#servicos{
+  padding: 30px 15px;
+}
+#servicos h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color:#428c85;
+}
+/* contato footer */
+#contato{
+  padding: 30px 15px;
+  background-color: #7ebfb9;
+ 
+}
+#mapa iframe{
+  width: 300px;
+  height: 169px;
+  margin-top: 10px;
+
+}
+
+
+
+
+/* ------------- Smartphone Paisagem ----------- */
+@media (min-width: 576px){
+    
+    /* Layout */
+    .container{
+      max-width: 540px;
+      /* background-color: wheat; */
+    }
+}
+
+/* ------------ Tablet Retrato  --------------- */
+@media (min-width: 768px){
+
+  /* Layout */
+  .container{
+    max-width: 725px;
+  }
+  main{
+    height: 60vh;
+   
+  }
+  main h2 {
+    font-size: 2.5em;
+  }
+}
+
+/*------------- Tablet Paisagem ---------------- */
+@media (min-width: 992px){
+ 
+  /* Layout */
+  .container{
+    max-width: 960px;
+  }
+
+  main{
+    height: 70vh;
+   
+  }
+  main h2 {
+    font-size: 4.5em;
+    text-shadow: #000 0.05em 0.05em 0.05em; 
+  }
+}
+
+
+/* -----------  PC ------------------------------- */
+@media (min-width: 1200px){
+ 
+  /* Layout */
+  .container{
+    max-width: 1140px;
+  }
+  
+  header{
+    height: 160px;
+  
+  }
+  #logo img{
+    width: 145px;
+    height: 145px;
+   
+  
+  }
+  label{
+    display: none;
+  }
+  nav ul {
+    position: static;
+    height: auto;
+    background-color: transparent;
+    margin-top: 90px;
+  }
+  nav ul li {
+    float: left;
+    border: 0;
+  }
+  nav ul li a {
+    color: #428c85;
+  }
+
+  nav ul li a:hover {
+    color: #cc00cc
+  }
+ 
+  main h2 {
+    font-size: 3.0em;
+    width: 50vw;
+   
+  }
+  .flex2{
+    flex-direction:row;
+    justify-content: space-around;
+  }
+  
+  
+}
