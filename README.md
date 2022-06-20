@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/88174449/174611712-79d7d272-dc67-48dd-
 
 - HTML / CSS
 
-##Validação W3C
+## Validação W3C
 [HTML](https://validator.w3.org/).
 
 ## Autor
